@@ -1,0 +1,49 @@
+.header {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 100px;
+  background-color: grey;
+  color: white;
+}
+.logoDiv {
+  display: flex;
+  width: 200px;
+}
+
+.welcomeDiv {
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.button {
+  border-radius: 15px;
+  color: white;
+  border: none;
+  background-color: #1ea7fd;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.header .welcome {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.button2 {
+  border-radius: 15px;
+  border: none;
+  padding: 8px 15px;
+  background-color: cornsilk;
+  cursor: pointer;
+  vertical-align: top;
+  margin-right: 5px;
+}

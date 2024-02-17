@@ -1,0 +1,20 @@
+import {Meta, Story, Canvas} from "@storybook/addon-docs/blocks"
+import Table from "./Table"
+
+<Meta title="COMPONENTS/TableComponent" component={Table}/>
+
+## Table
+#### A Customizable React table component
+<Canvas>
+<Story name="Table">
+<Table
+headers={["Col 1","Col 2","Col 3","Col 4","Col 5"]}
+rows={[
+    ["This", "is", "just", "a", "text"],
+    ["This", "is", "just", "a", "text"],
+    ["This", "is", "just", "a", "text"],
+    ["This", "is", "just", "a", "text"],
+]}
+/>
+</Story>
+</Canvas>

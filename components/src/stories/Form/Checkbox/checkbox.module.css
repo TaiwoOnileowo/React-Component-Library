@@ -1,0 +1,9 @@
+.container {
+  margin: 10px 30px;
+}
+
+.container label {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 10px;
+}
